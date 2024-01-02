@@ -1,6 +1,14 @@
 # load-data-studio
 Test repo for loading a Data Studio directly from a Github repo
 
+# Install miniconda
+
+1. Use Homebrew: `brew install --cask miniconda`
+2. Initialize: `conda init "$(basename "${SHELL}")"`
+3. Config to use [Conda-Forge](https://conda-forge.org/):
+  `conda config --add channels conda-forge`
+  `conda config --set channel_priority strict`
+
 # Steps to generate a conda environment file
 
 1. Create a conda environment (with specific packages): `conda create --name myjupyterenv python jupyter jupyterlab`
