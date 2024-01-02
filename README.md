@@ -3,7 +3,7 @@ Test repo for loading a Data Studio directly from a Github repo
 
 # Install miniconda
 
-1. Use Homebrew: `brew install --cask miniconda`
+1. Use [Homebrew](https://brew.sh/) to install [miniconda](https://formulae.brew.sh/cask/miniconda): `brew install --cask miniconda`
 2. Initialize: `conda init "$(basename "${SHELL}")"`
 3. Config to use [Conda-Forge](https://conda-forge.org/):
   `conda config --add channels conda-forge`
