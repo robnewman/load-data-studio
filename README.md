@@ -7,8 +7,10 @@ Test repo for loading a Data Studio directly from a Github repo
 2. Initialize: `conda init "$(basename "${SHELL}")"`
 3. Config to use [Conda-Forge](https://conda-forge.org/):
 
-  `conda config --add channels conda-forge`
-  `conda config --set channel_priority strict`
+  ```
+  conda config --add channels conda-forge
+  conda config --set channel_priority strict
+  ```
 
 # Steps to generate a conda environment file
 
