@@ -1,4 +1,4 @@
-# load-data-studio
+# load-data-studio-conda
 Test repo for loading a Data Studio directly from a Github repo
 
 # Install miniconda
